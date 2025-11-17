@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Student List'),
+        title: Text('Student List', style: TextStyle(fontWeight: FontWeight.bold),),
         backgroundColor: Colors.yellow,
         foregroundColor: Colors.black,
       ),
